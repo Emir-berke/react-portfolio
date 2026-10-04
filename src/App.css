@@ -278,3 +278,79 @@ form .button-link {
   margin-bottom: 6px;
   color: #1e3a5f;
 }
+/* Highlight the current page */
+nav a.active {
+  background: #e8efff;
+  color: #1e40af;
+}
+
+/* Keep navigation aligned with the page content */
+nav {
+  padding-inline: max(20px, calc((100% - 1000px) / 2));
+}
+
+nav .logo {
+  margin-right: auto;
+}
+
+/* Clear separation between education entries */
+.education-entry + .education-entry {
+  margin-top: 32px;
+  padding-top: 28px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.education-entry h2 {
+  margin-bottom: 8px;
+}
+
+/* Coursework uses a compact list */
+main .coursework {
+  display: block;
+  padding-left: 22px;
+  list-style: disc;
+}
+
+main .coursework li {
+  padding: 5px 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: #475569;
+}
+
+/* Shared footer */
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px 28px;
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #1e40af;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  nav {
+    gap: 8px;
+  }
+
+  nav .logo {
+    margin-right: 8px;
+  }
+
+  .site-footer {
+    padding-inline: 24px;
+  }
+}
