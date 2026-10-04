@@ -3,7 +3,7 @@ function About() {
     <main>
 <h1>About Me</h1>
 <img
-src={`${import.meta.env.BASE_URL}MyPhoto.jpeg`}
+  src={`${import.meta.env.BASE_URL}MyPhoto.jpeg`}
   alt="Emir Berke Peker"
   className="profile-photo"
 />
