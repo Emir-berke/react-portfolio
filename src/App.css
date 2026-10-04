@@ -251,3 +251,30 @@ form .button-link {
     width: 180px;
   }
 }
+.project-card {
+  margin-top: 28px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #f8fafc;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.project-details {
+  padding: 24px;
+}
+
+.project-details h2 {
+  margin-top: 0;
+}
+
+.project-details h3 {
+  margin-bottom: 6px;
+  color: #1e3a5f;
+}
