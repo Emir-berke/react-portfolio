@@ -52,3 +52,33 @@ nav {
   height: auto;
   border-radius: 12px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 520px;
+  margin-top: 24px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #6b7280;
+  border-radius: 6px;
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+button.button-link {
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.button-link:focus-visible {
+  outline: 3px solid #1f2937;
+  outline-offset: 3px;
+}
