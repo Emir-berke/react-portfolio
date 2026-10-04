@@ -12,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
      <nav>
+  <Link to="/" className="logo" aria-label="Emir Berke home">EBP</Link>
   <Link to="/">Home</Link>
   <Link to="/about">About Me</Link>
   <Link to="/projects">Projects</Link>
