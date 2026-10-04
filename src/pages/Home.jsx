@@ -5,9 +5,7 @@ function Home() {
   const submission = location.state?.contactSubmission
 
   return (
-    <main>
-      <h1>Emir Berke’s Portfolio</h1>
-
+    <main className="home-page">
       {submission && (
         <p role="status">
           Thanks, {submission.firstName}! Your form entries were
@@ -15,13 +13,36 @@ function Home() {
         </p>
       )}
 
-      <p>Welcome! I am learning web development.</p>
-      <p>I am excited to share my projects and skills with you.</p>
-      <p>I am hoping to create something amazing!</p>
+      <div className="home-intro">
+        <div>
+          <p className="eyebrow">WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I’m Emir Berke Peker.</h1>
 
-      <Link to="/about" className="button-link">
-        Learn more about me
-      </Link>
+          <p className="home-description">
+            I’m a web development student learning to build useful,
+            user-friendly applications, with an interest in
+            AI engineering and data analysis.
+          </p>
+
+          <p>
+            My goal is to turn ideas into practical tools while
+            growing my programming and problem-solving skills.
+          </p>
+
+          <div className="home-actions">
+            <Link to="/about" className="button-link">
+              Learn more about me
+            </Link>
+
+          </div>
+        </div>
+
+        <img
+          src="/MyPhoto.jpeg"
+          alt="Emir Berke Peker"
+          className="home-photo"
+        />
+      </div>
     </main>
   )
 }

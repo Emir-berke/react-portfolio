@@ -8,7 +8,7 @@ function About() {
   className="profile-photo"
 />
       <p>
-        Hi, I’m Emir Berke, a student learning web development.
+        Hi, I’m Emir Berke Peker, a student learning web development.
         I’m building my skills in HTML, CSS, JavaScript, and React
         by creating projects and putting what I learn into practice.
       </p>
