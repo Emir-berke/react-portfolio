@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router'
+import { HashRouter, Routes, Route, Link } from 'react-router'
 import './App.css'
 
 import Home from './pages/Home'
@@ -10,7 +10,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
      <nav>
   <Link to="/" className="logo" aria-label="Emir Berke home">EBP</Link>
   <Link to="/">Home</Link>
@@ -30,7 +30,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

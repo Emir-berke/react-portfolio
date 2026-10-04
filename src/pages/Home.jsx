@@ -37,11 +37,11 @@ function Home() {
           </div>
         </div>
 
-        <img
-          src="/MyPhoto.jpeg"
-          alt="Emir Berke Peker"
-          className="home-photo"
-        />
+    <img
+      src={`${import.meta.env.BASE_URL}MyPhoto.jpeg`}
+      alt="Emir Berke Peker"
+      className="home-photo"
+    />
       </div>
     </main>
   )

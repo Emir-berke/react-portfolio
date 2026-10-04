@@ -3,7 +3,7 @@ function About() {
     <main>
 <h1>About Me</h1>
 <img
-  src="/MyPhoto.jpeg"
+src={`${import.meta.env.BASE_URL}MyPhoto.jpeg`}
   alt="Emir Berke Peker"
   className="profile-photo"
 />
@@ -18,7 +18,7 @@ function About() {
         my programming and problem-solving skills.
       </p>
       <a
-  href="/Emir%20Berke%20Peker-Resume%202026.pdf"
+href={`${import.meta.env.BASE_URL}Emir%20Berke%20Peker-Resume%202026.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="button-link"
